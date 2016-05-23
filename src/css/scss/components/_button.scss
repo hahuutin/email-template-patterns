@@ -1,0 +1,31 @@
+// ===========================================================
+// BUTTONS
+// ===========================================================
+
+.button-table {
+    width: 170px;
+}
+
+.button-wrapper {
+    width: 170px;
+    height: 40px;
+    display: block;
+    color: $color-white;
+}
+
+.button-inner {
+    width: 100%;
+    display: block;
+    color: $color-white;
+    text-decoration:none !important;
+    text-decoration: none;
+    font-family: $font-primary;
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 300;
+
+    span {
+        font-weight: 300;
+        color: $color-white;
+    }
+}

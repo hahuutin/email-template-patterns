@@ -1,0 +1,61 @@
+// ===========================================================
+// GLOBAL STYLING
+// ===========================================================
+
+// Reset
+body {
+    margin: 0; padding: 0;
+}
+
+// Remove styling for address, phone, email...
+a[href^=tel] {
+    color: $color-black;
+    text-decoration:none;
+}
+
+.apple-link-white a {
+    color: $color-white !important;
+    text-decoration: none !important;
+    text-decoration: none;
+}
+
+.apple-link-black a {
+    color: $color-black !important;
+    text-decoration: none !important;
+    text-decoration: none;
+}
+
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+// Container
+.container {
+    width: 770px;
+    max-width: 770px !important;
+}
+
+.container-lg {
+    width: 790px;
+    max-width: 790px !important;
+}
+
+// Other
+table[class="table-spacer"] {
+    width: 20px;
+    height: 30px;
+}
+
+.divider {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.msoFix {
+    mso-table-lspace: -1pt;
+    mso-table-rspace: -1pt;
+}
