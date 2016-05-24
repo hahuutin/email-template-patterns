@@ -31,32 +31,108 @@
 </style>
     <title>Email layout 2 column</title>
     <style>
-@media only screen and (max-width: 820px) {
-  .container,
-  .container-lg {
-    width: 100% !important;
-    max-width: 100% !important;
+@media only screen and (max-width: 599px) {
+  td[class="pattern"] table {
+    width: 100%;
   }
-  .imagefull {
-    width: 100% !important;
+  td[class="pattern"] .hero_image img {
+    width: 100%;
+    height: auto !important;
   }
-  table[class="table-spacer"] {
+}
+
+
+@media only screen and (max-width: 450px) {
+  td[class="pattern"] .spacer {
     display: none;
   }
-  table[class="table-column"] {
-    width: 100% !important;
+  td[class="pattern"] .col {
+    width: 100%;
+    display: block;
+  }
+  td[class="pattern"] .col:first-child {
+    margin-bottom: 30px;
+  }
+  td[class="pattern"] .hero_image img {
+    width: 100%;
   }
 }
 </style>
 </head>
 <body style="margin: 0; padding: 0;">
     
-<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ff0000">
-    <tbody>
-        <tr>
-            <td>Email layout 2 column</td>
-        </tr>
-    </tbody>
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col" width="290" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="hero_image"><img src="http://placehold.it/450x150" width="290" alt="" style="display: block; border: 0;"></td>
+                            </tr>
+                            <tr>
+                                <td class="headline" align="left" style="font-family: arial,sans-serif; font-size: 22px; color: #333; padding-top: 15px;">
+                                    This is a story headline
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="body_copy" align="left" style="font-family: arial,sans-serif; font-size: 14px; line-height: 20px !important; color: #7f7f7f; padding-top: 10px;">
+                                    Virtual computing via the cloud is all the rage these days but blade servers, which make up the bulk of the infrastructure for cloud computing systems, require specific fusing for high reliability and uptime. The Littelfuse 456 Series--- NANO2 Subminature Surface Mount Fuse - is perfect for this.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="padding-top: 15px;">
+                                    <table class="button-table" width="170" cellspacing="0" cellpadding="0" border="0" style="width: 170px;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="button-wrapper" width="170" valign="middle" height="40" bgcolor="#22056D" align="center" style="width: 170px; height: 40px; display: block; color: #FFFFFF;">
+                                                    <a class="button-inner" target="_blank" href="#" style="width: 100%; display: block; color: #FFFFFF; text-decoration: none; font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif; font-size: 21px; line-height: 40px; font-weight: 300;">
+                                                        <span style="font-weight: 300; color: #FFFFFF;">View Details</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="spacer" width="20" style="font-size: 1px;">&nbsp;</td>
+                    <td class="col" width="290" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="hero_image"><img src="http://placehold.it/450x150" width="290" alt="" style="display: block; border: 0;"></td>
+                            </tr>
+                            <tr>
+                                <td class="headline" align="left" style="font-family: arial,sans-serif; font-size: 22px; color: #333; padding-top: 15px;">
+                                    This is a story headline
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="body_copy" align="left" style="font-family: arial,sans-serif; font-size: 14px; line-height: 20px !important; color: #7f7f7f; padding-top: 10px;">
+                                    Virtual computing via the cloud is all the rage these days but blade servers, which make up the bulk of the infrastructure for cloud computing systems, require specific fusing for high reliability and uptime. The Littelfuse 456 Series--- NANO2 Subminature Surface Mount Fuse - is perfect for this.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="padding-top: 15px;">
+                                    <table class="button-table" width="170" cellspacing="0" cellpadding="0" border="0" style="width: 170px;">
+                                        <tbody>
+                                            <tr>
+                                                <td class="button-wrapper" width="170" valign="middle" height="40" bgcolor="#22056D" align="center" style="width: 170px; height: 40px; display: block; color: #FFFFFF;">
+                                                    <a class="button-inner" target="_blank" href="#" style="width: 100%; display: block; color: #FFFFFF; text-decoration: none; font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif; font-size: 21px; line-height: 40px; font-weight: 300;">
+                                                        <span style="font-weight: 300; color: #FFFFFF;">View Details</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 </table>
 </body>
 </html>

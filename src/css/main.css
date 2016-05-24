@@ -66,14 +66,20 @@ table[class="table-spacer"] {
   mso-table-lspace: -1pt;
   mso-table-rspace: -1pt; }
 
-@media only screen and (max-width: 820px) {
-  .container,
-  .container-lg {
-    width: 100% !important;
-    max-width: 100% !important; }
-  .imagefull {
-    width: 100% !important; }
-  table[class="table-spacer"] {
+@media only screen and (max-width: 599px) {
+  td[class="pattern"] table {
+    width: 100%; }
+  td[class="pattern"] .hero_image img {
+    width: 100%;
+    height: auto !important; } }
+
+@media only screen and (max-width: 450px) {
+  td[class="pattern"] .spacer {
     display: none; }
-  table[class="table-column"] {
-    width: 100% !important; } }
+  td[class="pattern"] .col {
+    width: 100%;
+    display: block; }
+  td[class="pattern"] .col:first-child {
+    margin-bottom: 30px; }
+  td[class="pattern"] .hero_image img {
+    width: 100%; } }
